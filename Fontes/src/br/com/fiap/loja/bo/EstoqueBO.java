@@ -20,7 +20,7 @@ public class EstoqueBO {
 		}
 
 		else {
-			throw new AxisFault("produto Não Cadastrado");
+			throw new AxisFault("produto Não Cadastrado"); //COMENTARIO
 		}
 	}
 	public static ArrayList<ProdutoTO> consultarProdutos() throws AxisFault {
